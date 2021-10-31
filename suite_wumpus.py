@@ -3,8 +3,8 @@ CPSC 415 -- Homework #4 support file
 Stephen Davies, University of Mary Washington, fall 2021
 '''
 
-import logging
 import random
+import logging
 from wumpus import *
 from collections import namedtuple
 
