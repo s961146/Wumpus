@@ -38,8 +38,8 @@ class WumpusEnvironment(XYEnvironment):
     def __init__(self, width=4, height=4):
         super().__init__(width, height)
         self.add_wumpus()
-        self.add_pits()
-        self.add_walls()
+        self.add_pits(.1)
+        self.add_walls(.05)
         self.add_gold()
         self._is_done_executing = False
         self._do_scream = False
